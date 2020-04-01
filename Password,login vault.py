@@ -3,17 +3,16 @@ def confirm_1():
         print('Your Password & Login have been Securely stored !')
     elif confirm != 'Y':
         print('Try again, not Confirmed!!')
-
-    while True:
-        print(0, 1, 2, '...' + ' Process is Completed')
-        break
+        print(0, 1, 2, 3, '.... out')
 
 
-greet = 'Welcome to login Authenticator!'
+greet = 'Welcome to login Vault!'
+print(greet)
 to_start = input('To Start Press Enter: ')
 
 login_info = input('What is your login : ')
 password_info = input('What is your password : ')
+
 
 print('Password: ', password_info)
 print('login: ', login_info)
