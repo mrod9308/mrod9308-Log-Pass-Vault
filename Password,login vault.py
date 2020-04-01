@@ -4,7 +4,7 @@ password_info = input('What is your password : ')
 confirm = input('Is this correct please type Y for Yes ? ')
 
 
-def confirm_1():
+def confirm_1():  #Confirms Value Y & outputs to user to confirm answer.
     if confirm == str('Y'):
         print('Your Password & Login have been Securely stored !')
     elif confirm != 'Y':
